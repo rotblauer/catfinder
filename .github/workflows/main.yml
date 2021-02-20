@@ -41,7 +41,7 @@ jobs:
       - run: flutter pub run flutter_launcher_icons:main
 
       - name: Build Release APK
-        run: flutter build apk
+        run: flutter build apk --build-name=${GITHUB_REF} --build-number=$GITHUB_RUN_NUMBER
       
       - name: Draft release notes
         run: |
