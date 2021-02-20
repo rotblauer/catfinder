@@ -28,8 +28,8 @@ jobs:
         env:
           FILE_CONTENT: ${{ secrets.SECRET_CONFIG_FILE }}
         run: |
-          mkdir secrets
-          echo "${FILE_CONTENT}" > secrets/config.dart
+          mkdir -p lib/secrets
+          echo "${FILE_CONTENT}" > lib/secrets/config.dart
 
       - uses: subosito/flutter-action@v1
         with:
