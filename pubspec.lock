@@ -105,7 +105,7 @@ packages:
       name: file
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.2.1"
+    version: "6.1.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -163,13 +163,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.19"
-  intl:
-    dependency: transitive
-    description:
-      name: intl
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.16.1"
   js:
     dependency: transitive
     description:
@@ -180,10 +173,10 @@ packages:
   mapbox_gl:
     dependency: "direct main"
     description:
-      name: mapbox_gl
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.9.0"
+      path: flutter-mapbox-gl
+      relative: true
+    source: path
+    version: "0.10.0"
   mapbox_gl_dart:
     dependency: transitive
     description:
@@ -194,17 +187,21 @@ packages:
   mapbox_gl_platform_interface:
     dependency: transitive
     description:
-      name: mapbox_gl_platform_interface
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.9.0"
+      path: mapbox_gl_platform_interface
+      ref: HEAD
+      resolved-ref: "79501925724dd48b8b46ddd8a1f8bd2b5f1c31b0"
+      url: "https://github.com/tobrun/flutter-mapbox-gl.git"
+    source: git
+    version: "0.10.0"
   mapbox_gl_web:
     dependency: transitive
     description:
-      name: mapbox_gl_web
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.9.0"
+      path: mapbox_gl_web
+      ref: HEAD
+      resolved-ref: "79501925724dd48b8b46ddd8a1f8bd2b5f1c31b0"
+      url: "https://github.com/tobrun/flutter-mapbox-gl.git"
+    source: git
+    version: "0.10.0"
   matcher:
     dependency: transitive
     description:
@@ -225,7 +222,7 @@ packages:
       name: nested
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.4"
+    version: "1.0.0"
   octo_image:
     dependency: transitive
     description:
@@ -316,7 +313,7 @@ packages:
       name: process
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.13"
+    version: "4.1.0"
   provider:
     dependency: "direct main"
     description:
