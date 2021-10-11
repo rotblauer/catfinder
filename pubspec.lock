@@ -185,22 +185,18 @@ packages:
     source: hosted
     version: "0.1.5"
   mapbox_gl_platform_interface:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: mapbox_gl_platform_interface
-      ref: HEAD
-      resolved-ref: "79501925724dd48b8b46ddd8a1f8bd2b5f1c31b0"
-      url: "https://github.com/tobrun/flutter-mapbox-gl.git"
-    source: git
+      path: "flutter-mapbox-gl/mapbox_gl_platform_interface"
+      relative: true
+    source: path
     version: "0.10.0"
   mapbox_gl_web:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: mapbox_gl_web
-      ref: HEAD
-      resolved-ref: "79501925724dd48b8b46ddd8a1f8bd2b5f1c31b0"
-      url: "https://github.com/tobrun/flutter-mapbox-gl.git"
-    source: git
+      path: "flutter-mapbox-gl/mapbox_gl_web"
+      relative: true
+    source: path
     version: "0.10.0"
   matcher:
     dependency: transitive

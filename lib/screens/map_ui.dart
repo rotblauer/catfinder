@@ -311,9 +311,10 @@ class FullMapState extends State<MapUiBody> {
             });
           },
           compassViewMargins: Point(24, 128),
+          logoViewMargins: Point(-64, -64),
         ),
         Container(
-          margin: EdgeInsets.only(top: 48),
+          margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
           child: Padding(
               padding: EdgeInsets.all(8),
               child: DropdownButton<String>(

@@ -40,6 +40,12 @@ dependencies:
 #      url: git://github.com/tobrun/flutter-mapbox-gl.git
 #      ref: webcss # master
 
+dependency_overrides:
+  mapbox_gl_platform_interface:
+    path: ./flutter-mapbox-gl/mapbox_gl_platform_interface
+  mapbox_gl_web:
+    path: ./flutter-mapbox-gl/mapbox_gl_web
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
